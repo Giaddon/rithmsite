@@ -420,6 +420,10 @@ hr {
 }
 .navbar a {
     text-decoration: none;
+  color: #111;
+}
+.navbar a:hover {
+  text-decoration: underline;
 }
 .card {
     background-color: #fff;
@@ -453,76 +457,9 @@ hr {
     width: 2px;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Alfa Slab One','Homemade Apple';
+    font-family: 'Alfa Slab One';
     letter-spacing: 1px;
 }
-
-
-/*
-.navbar {
-    position: fixed;
-    height: 60px;
-    background-color: #111;
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    z-index: 10;
-    font-family: 'Homemade Apple';
-    color: #fff;
-}
-.navtext p {
-    display: inline-block;
-    margin-top: 0;
-    padding-top: 0;
-    line-height: 0;
-}
-.navtext h4 {
-}
-
-.navtext h3{
-    display: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-/* Larger than tablet 
-@media (min-width: 750px) {
-.navbar {
-    position: fixed;
-    height: 100%;
-    background-color: #111;
-    width: 320px;
-    text-align: center;
-    font-size: 24px;
-    z-index: 10;
-    font-family: 'Homemade Apple';
-    color: #fff;
-    }    
-    
-}
-
-
-
-.landing {
-    margin-top: 100px;
-    color: #111;
-    border-bottom: 2px solid #ff00f5;
-}
-
-
-
-
-.accent {
-    font-family: 'Kumar One';
-}
-
-a {
-    color: #fff;
-    text-decoration: none;    
-}
-
-
-*/
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
